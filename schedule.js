@@ -8,7 +8,7 @@ let schedule = [
   { id: "d", depedencies: [] },
   { id: "e", depedencies: [] },
 ];
-// ceabd
+
 let s = []; //cdeab
 function executeTask() {
   schedule.forEach((el, i) => {
