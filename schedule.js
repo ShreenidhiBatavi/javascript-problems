@@ -20,7 +20,6 @@ function executeTask() {
       //   schedule.splice(i, 1);
       schedule = schedule.filter((e) => e.id !== el.id);
     }
-    console.log(schedule, "12");
   });
   while (schedule.length > 0) {
     executeTask();
